@@ -1,17 +1,13 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 
-const generateHtml = require()
+const Manager = require('./lib/Manager');
+const Engineer = require('./lib/Engineer');
+const Intern = require('./lib/Intern');
 
-// array of question for user input
-const questions = [
-    {
-        type: 'input',
-        name: 'name',
-        message: ''
+const employees = [];
 
-    }
-]
+function generateHtml() 
 
 // function to initialize app
 function init() {
@@ -19,7 +15,7 @@ function init() {
     .then((answers) => {
         const filename = './dist/index.html';
 
-        // TODO: Create a function to write README file
+        // function to write README file
         fs.writeFile(filename, generateHtml(answers), (err) => 
         err ? console.log(err) : console.log("Success!")
         );
