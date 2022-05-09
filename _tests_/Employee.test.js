@@ -1,6 +1,3 @@
-const { hasUncaughtExceptionCaptureCallback, getMaxListeners } = require("process");
-const { isTypedArray } = require("util/types");
-const Employee = require("../lib/Employee");
 const Employee = require("../lib/Employee");
 
 describe('Employee', () => {
