@@ -12,7 +12,7 @@ describe('Engineer', () => {
         it('should get github via getGithub()', () => {
             const github = 'AJFigueroa83';
             const engineer = new Engineer('John', 123, 'john@gmail.com', github);
-            const engineerGithub = engineer.getGithub();
+            const engineerGithub = engineer.getGitHub();
             expect(engineerGithub).toBe(github);
         });
         it('should get role via getRole()', () => {

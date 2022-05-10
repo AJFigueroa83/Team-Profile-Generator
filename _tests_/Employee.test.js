@@ -8,7 +8,7 @@ describe('Employee', () => {
         });
         it('should set name via constructor arguments', () => {
             const name = 'John';
-            const Employee = new Employee(name);
+            const employee = new Employee(name);
             expect(employee.name).toBe(name);
         });
         it('should set id via constructor arguments', () => {
