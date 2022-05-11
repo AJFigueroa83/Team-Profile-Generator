@@ -79,7 +79,7 @@ function createTeam() {
     inquirer.prompt([
         {
             type: 'list',
-            namoe: 'choice',
+            name: 'choice',
             message: 'Which type of team member would you like to add?',
             choices: ['Engineer', 'Intern', "I don't want ot add any other"],
         },
