@@ -237,6 +237,8 @@ function buildTeam() {
     })
 }
 
+createManager();
+
 // function to initialize app
 // function init() {
 //     inquirer.prompt(questions)
