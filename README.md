@@ -40,7 +40,7 @@ I ran tests for each class.
 ## Deployment
 
 🚀 Click [here](https://github.com/AJFigueroa83/Team-Profile-Generator) to view the repo.  
-🚀 Click [here](N/A) to view the deployed site.
+🚀 Click [here](https://drive.google.com/file/d/1l1eVifA1zshdA0V_oItE7Y4s5dsJR9qD/view) to view the tutorial.
 
 ## Questions
 
