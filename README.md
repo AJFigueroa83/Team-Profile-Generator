@@ -31,11 +31,13 @@ The user must first **run** *npm install* to install all the required dependenci
 
 Please feel free to reach out to me on GitHub with any contributions for this project.
 
-
-
 ## Tests
 
 I ran tests for each class.
+
+## Mock-Up
+
+![Team profile generator run down on the command line](./giphy.gif)
 
 ## Deployment
 
